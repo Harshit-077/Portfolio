@@ -1,6 +1,7 @@
 body {
     height: 100vh;
     width: 100vw;
+    box-sizing: border-box;
     background-color: rgb(32, 23, 23);
     color: aliceblue;
 }
@@ -8,6 +9,7 @@ body {
 nav {
     height: 8.6vh;
     width: 100vw;
+    box-sizing: border-box;
     display: flex;
 }
 
@@ -17,7 +19,7 @@ ul {
 
 ul li {
     display: flex;
-    padding: 10px 20px;
+    padding: 1vh 1vw;
 }
 
 ul li a {
@@ -30,7 +32,7 @@ ul #ao a {
 }
 
 .mid_nav {
-    padding: 0px 350px;
+    padding: 0vh 26vw;
 }
 
 #one a {
@@ -41,7 +43,7 @@ ul #ao a {
 .last_nav {
     display: flex;
     justify-content: end;
-    padding: 0px 3px;
+    padding: 0vh 0vw;
     background-color: #FFA500;
     border-radius: 9px;
 }
@@ -54,8 +56,8 @@ a:hover{
     color: rgb(250, 167, 167);
 }
 main {
-    padding: 10px;
-    margin: 50px;
+    padding: 0.4em;
+    margin: 1.6em;
     font-size: 1.8em;
 }
 
@@ -80,6 +82,7 @@ main yo circle {
 
     height: 600px;
     width: 600px;
+    box-sizing: border-box;
     background-color: #242424;
     border-radius: 50%;
     display: inline-block;
@@ -94,7 +97,7 @@ main yo circle img {
     margin-bottom: 20px;
 }
 
-main yo mo img {
+main yo mo img {/*Check*/
     height: 40px;
     width: 40px;
 }
@@ -124,8 +127,8 @@ box,box2 {
 }
 
 box div, box2 div {
-    height: 290px;
-    width: 290px;
+    height: 45vh;
+    width: 20vw;
     background-color: rgb(65, 64, 64);
     border-radius: 50px;
 }
@@ -152,30 +155,27 @@ box2 div p {
     font-size: 1.27em;
 }
 
-
-
-
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 2em;
 }
 
 .about-me {
     text-align: center;
-    padding: 40px 20px;
+    padding: 7vh 2vw;
 }
 
 .about-me h1 {
     font-size: 36px;
-    margin-bottom: 10px;
+    margin-bottom: 6vh;
 }
 
 .about-me h2 {
     font-size: 20px;
     font-weight: normal;
     color: #cccccc;
-    margin-bottom: 40px;
+    margin-bottom: 10vh;
 }
 
 .content {
@@ -186,10 +186,10 @@ box2 div p {
 
 .image img {
     border-radius: 50%;
-    width: 300px;
-    height: 300px;
+    width: 23vw;
+    height: 46vh;
     object-fit: cover;
-    margin-bottom: 20px;
+    margin-bottom: 6vh;
 }
 
 .description {
@@ -207,8 +207,8 @@ box2 div p {
 
 .download-cv {
     display: inline-block;
-    margin-top: 20px;
-    padding: 10px 20px;
+    margin-top: 2vh;
+    padding: 1vh 1vw;
     background-color: #FFA500;
     color: #ffffff;
     text-decoration: none;
@@ -219,17 +219,17 @@ box2 div p {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 40px 20px;
+    padding: 5vh 5vw;
 }
 
 .skill {
     text-align: center;
-    margin: 20px;
+    margin: 2em;
 }
 
 .skill img {
-    width: 100px;
-    height: 100px;
+    width: 9vw;
+    height: 17vh;
     margin-bottom: 10px;
 }
 
@@ -249,7 +249,7 @@ box2 div p {
 
 .contact-form {
     background-color: #2e2e2e;
-    padding: 40px;
+    padding: 4em;
     border-radius: 10px;
     width: 90%;
     max-width: 800px;
@@ -276,20 +276,20 @@ form {
 .form-row {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 3vh;
 }
 
 .form-row input,
 .form-row select,
 .form-row textarea {
-    width: 48%;
-    padding: 10px;
+    width: 46%;
+    padding: 0.4em;
     border: 1px solid #444;
     border-radius: 5px;
     background-color: #333;
     color: #fff;
     font-size: 16px;
-    margin-bottom: 15px;
+    margin-bottom: 3vh;
 }
 
 .form-row textarea {
@@ -315,8 +315,8 @@ button:hover {
 
 .bottom {
     background-color: #2a2a2a;
-    padding: 2%;
-    margin: 3%;
+    padding: 2em;
+    margin: 2em;
 }
 
 .bottom h1 {
@@ -341,18 +341,18 @@ button:hover {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    transform: translateX(-57px);
+    transform: translateX(-28px);
 }
 
 .maut p img {
     transform: translateY(4px);
-    height: 20px;
-    width: 20px;
+    height: 3vh;
+    width: 5vw;
 }
 
 .line {
     transform: translateX(280px);
-    height: 1px;
-    width: 700px;
+    height: 0.5vh;
+    width: 48vw;
     background-color: #FFA500;
 }
