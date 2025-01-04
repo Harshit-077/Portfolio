@@ -50,6 +50,9 @@ ul #ao a {
     color: rgb(0, 0, 0);
 }
 
+a:hover{
+    color: rgb(250, 167, 167);
+}
 main {
     padding: 10px;
     margin: 50px;
@@ -114,15 +117,13 @@ section h2 {
     color: #636262;
 }
 
-box,
-box2 {
+box,box2 {
     margin: 4%;
     display: flex;
     justify-content: space-around;
 }
 
-box div,
-box2 div {
+box div, box2 div {
     height: 290px;
     width: 290px;
     background-color: rgb(65, 64, 64);
@@ -130,8 +131,7 @@ box2 div {
 }
 
 
-box div h1,
-box2 div h1 {
+box div h1, box2 div h1 {
     text-align: center;
     color: #FFA500;
 }
@@ -195,6 +195,9 @@ box2 div p {
 .description {
     max-width: 800px;
     text-align: center;
+}
+.description a:hover {
+    color: black;
 }
 
 .description p {
