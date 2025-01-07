@@ -351,8 +351,8 @@ button:hover {
 }
 
 .line {
-    transform: translateX(280px);
+    transform: translateX(2);
     height: 0.5vh;
-    width: 48vw;
+    width: 50vw;
     background-color: #FFA500;
 }
