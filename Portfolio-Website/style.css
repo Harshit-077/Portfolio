@@ -123,11 +123,14 @@ section h2 {
 box,box2 {
     margin: 4%;
     display: flex;
+    flex: 1 1 calc(33.333% - 40px);
     justify-content: space-around;
 }
-
+#on, #tw, #th, #fo,#fi,#si{
+    overflow: auto;
+}
 box div, box2 div {
-    height: 45vh;
+    height: 37vh;
     width: 20vw;
     background-color: rgb(65, 64, 64);
     border-radius: 50px;
@@ -351,7 +354,7 @@ button:hover {
 }
 
 .line {
-    transform: translateX(2);
+    transform: translateX(19em);
     height: 0.5vh;
     width: 50vw;
     background-color: #FFA500;
